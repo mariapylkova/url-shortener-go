@@ -1,3 +1,5 @@
-go mod init url-shortener-go
-go get github.com/gin-gonic/gin
-require github.com/jinzhu/gorm v1.9.16
+module url-shortener-go
+
+go 1.20
+
+require github.com/mattn/go-sqlite3 v1.14.28
